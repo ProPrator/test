@@ -1,0 +1,22 @@
+{
+  "name": "shnayder20220316/composer-package",
+  "description": "Тестовое задание",
+  "authors": [
+    {
+      "name": "Ivan.Shnayder",
+      "email": "pro.orator@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "shnadyr20220316\\": "src/"
+    }
+  }
+}
